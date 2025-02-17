@@ -63,7 +63,7 @@ fun CounterView() {
             Button(
                 onClick = { count++ },
                 modifier = Modifier.padding(20.dp),
-                colors = ButtonDefaults.buttonColors(containerColor = Color.Red) // Ngjyra e kuqe
+                colors = ButtonDefaults.buttonColors(containerColor = Color.Red) 
             ) {
                 Text(text = "PLUS", fontSize = 20.sp, color = Color.White)
             }
@@ -80,7 +80,7 @@ fun CounterView() {
             Button(
                 onClick = { count-- },
                 modifier = Modifier.padding(20.dp),
-                colors = ButtonDefaults.buttonColors(containerColor = Color.Red) // Ngjyra e kuqe
+                colors = ButtonDefaults.buttonColors(containerColor = Color.Red) 
             ) {
                 Text(text = "MINUS", fontSize = 20.sp, color = Color.White)
             }
